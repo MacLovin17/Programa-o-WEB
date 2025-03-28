@@ -1,0 +1,129 @@
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #445248;
+    color: #152912;
+}
+
+.topo {
+    max-width: 900px;
+    margin: 40px auto;
+    background: rgb(230, 236, 230);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #222;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p{
+    color: #000000;
+    line-height: 1.6;
+}
+li {
+    color: #444;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+.content {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #114415;
+}
+
+.content h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.content p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Contato */
+.celular, .email, .linkedin, .github {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 5px 0;
+}
+
+.celular img, .email img, .linkedin img, .github img {
+    width: 22px;
+}
+
+/* Seções */
+.objetivo, .educacao, .experiencia, .competencias {
+    margin-top: 30px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 22px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Disponibilidade */
+.sub {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Certificados */
+.certificados {
+    margin-top: 30px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.certificados h1 {
+    font-size: 20px;
+}
+
+.certificados p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    .topo {
+        width: 95%;
+        padding: 15px;
+    }
+    
+    .celular, .email, .linkedin, .github {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
